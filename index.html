@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Студія</title>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Студія</title>
-</head>
-
-<body>
-	<!-- header -->
-	<header>
-		<!-- Logo -->
-		<div>
-			<!-- !!!!!!!!!"Web" - має бути в span -->
-			<a href="#">WebStudio</a>
-		</div>
-		<!-- Navigation -->
-		<nav>
+	<body>
+		<!-- header -->
+		<header>
+			<!-- Navigation -->
+			<nav>
+				<!-- Logo "Web" - має бути в span-->
+				<a href="#">WebStudio</a>
+				<ul>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<!-- mail+tel -->
 			<ul>
-				<li><a href="#">Студия</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li>
+					<a href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
+				</li>
+				<li>
+					<a href="tel:+380961111111">+38 096 111 11 11</a>
+				</li>
 			</ul>
-		</nav>
-		<!-- mail+tel -->
-		<ul>
-			<li>
-				<a href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
-			</li>
-			<li>
-				<a href="tel:+380961111111">+38 096 111 11 11</a>
-			</li>
-			</div>
-	</header>
-	<!-- main -->
-	<main>
-		<!-- section-1 Эффективные решения для вашего бизнеса -->
-		<section>
-			<h1>Эффективные решения для вашего бизнеса</h1>
-			<button type="button">Заказать услугу</button>
-		</section>
-		<!-- section-2 Чем мы занимаемся -->
-		<section>
-			<!-- div-sec-2.1 -->
-			<div>
+		</header>
+		<!-- main -->
+		<main>
+			<!-- section-1 Эффективные решения для вашего бизнеса -->
+			<section>
+				<h1>Эффективные решения для вашего бизнеса</h1>
+				<button type="button">Заказать услугу</button>
+			</section>
+			<!-- section-2 з прихованим заголовком -->
+			<section>
+				<!-- Прихований заголовок "Наші особливості" -->
+				<h2 hidden>"Наші особливості"</h2>
 				<ul>
 					<li>
 						<h3>Внимание к деталям</h3>
@@ -63,65 +59,63 @@
 						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
-			</div>
-			<!-- div-sec-2.2 -->
-			<div>
+			</section>
+
+			<!-- Section 3 Чем мы занимаемся -->
+			<section>
 				<h2>Чем мы занимаемся</h2>
 				<ul>
 					<li><img src="./images/box_1.jpg" alt="working1" width="370" height="294" /></li>
 					<li><img src="./images/box_2.jpg" alt="working2" width="370" height="294" /></li>
 					<li><img src="./images/box_3.jpg" alt="working3" width="370" height="294" /></li>
 				</ul>
-			</div>
-		</section>
+			</section>
 
-		<!-- srction-3 Наша команда -->
-		<section>
-			<h2>Наша команда</h2>
-			<ul>
-				<li>
-					<img src="./images/photo_1.jpg" alt="photo_1" width="270" height="260" />
-					<p><span>Игорь Демьяненко</span></p>
-					<p>Product Designer</p>
-				</li>
-				<li>
-					<img src="./images/photo_2.jpg" alt="photo_2" width="270" height="260" />
-					<p><span>Ольга Репина</span></p>
-					<p>Frontend Developer</p>
-				</li>
-				<li>
-					<img src="./images/photo_3.jpg" alt="photo_3" width="270" height="260" />
-					<p><span>Николай Тарасов</span></p>
-					<p>Marketing</p>
-				</li>
-				<li>
-					<img src="./images/photo_4.jpg" alt="photo_4" width="270" height="260" />
-					<p><span>Михаил Ермаков</span></p>
-					<p>UI Designer</p>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<!-- footer -->
-	<footer>
-		<!-- Logo -->
-		<div>
+			<!-- srction-4 Наша команда -->
+			<section>
+				<h2>Наша команда</h2>
+				<ul>
+					<li>
+						<img src="./images/photo_1.jpg" alt="photo_1" width="270" height="260" />
+						<h3>Игорь Демьяненко</h3>
+						<p>Product Designer</p>
+					</li>
+					<li>
+						<img src="./images/photo_2.jpg" alt="photo_2" width="270" height="260" />
+						<h3>Ольга Репина</h3>
+						<p>Frontend Developer</p>
+					</li>
+					<li>
+						<img src="./images/photo_3.jpg" alt="photo_3" width="270" height="260" />
+						<h3>Николай Тарасов</h3>
+						<p>Marketing</p>
+					</li>
+					<li>
+						<img src="./images/photo_4.jpg" alt="photo_4" width="270" height="260" />
+						<h3>Михаил Ермаков</h3>
+						<p>UI Designer</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<!-- footer -->
+		<footer>
+			<!-- Logo -->
 			<!-- !!!!!!!!!"Web" - має бути в span -->
 			<a href="#">WebStudio</a>
-		</div>
-		<ul>
-			<li>
-				<address>г. Киев, пр-т Леси Украинки, 26</address>
-			</li>
-			<li>
-				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-			</li>
-			<li>
-				<a href="tel:+380961111111">+38 096 111 11 11</a>
-			</li>
-		</ul>
-
-	</footer>
-</body>
-
+			<address>
+				<ul>
+					<li>
+						<a href="">г. Киев, пр-т Леси Украинки, 26</a>
+					</li>
+					<li>
+						<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li>
+						<a href="tel:+380961111111">+38 096 111 11 11</a>
+					</li>
+				</ul>
+			</address>
+		</footer>
+	</body>
 </html>
